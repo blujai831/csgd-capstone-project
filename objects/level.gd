@@ -8,8 +8,8 @@ func _unhandled_input(event: InputEvent):
 		var checkpoint := _checkpoint # preserve thru self-destruct
 		var any_checkpoint := any_checkpoint_set()
 		var tree := get_tree()
+		tree.change_scene_to_file(scene_file_path)
 		if any_checkpoint:
-			tree.change_scene_to_file(scene_file_path)
 			var defer := func ():
 				var player_character: PlayerCharacter = null
 				while player_character == null:
