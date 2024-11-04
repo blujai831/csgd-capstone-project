@@ -8,7 +8,7 @@ extends CharacterBody2D
 @export var candle_init_scale: float = 1.0
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+const JUMP_VELOCITY = -500.0
 const GRAVITY = 980.0  # Define gravity here
 
 @export var throw_strength: float = 3.0
