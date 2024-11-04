@@ -10,6 +10,7 @@ var _hide_timer: float = -1.0
 var _initial_light_scale = DEFAULT_LIGHT_SCALE
 
 func _ready():
+	super()
 	_initial_light_scale = _collision_light.scale
 
 # Initialize the candle with specific properties
