@@ -72,3 +72,9 @@ position = Vector2(1535, 3106)
 [node name="Brazier3" parent="." instance=ExtResource("3_0nran")]
 position = Vector2(3923, 3910)
 scale = Vector2(2.27604, 1.41406)
+
+[node name="Candle2" parent="." instance=ExtResource("6_of56d")]
+position = Vector2(1063, 1867)
+
+[node name="Candle3" parent="." instance=ExtResource("6_of56d")]
+position = Vector2(1477, 3144)
