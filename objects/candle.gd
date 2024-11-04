@@ -9,7 +9,7 @@ var _hide_timer: float = -1.0
 # Initialize the candle with specific properties
 func initialize(scale_factor: float) -> void:
 	if _collision_light:
-		_collision_light.scale *= scale_factor
+		_collision_light.scale *= sqrt(scale_factor)
 
 func get_light_scale() -> Vector2:
 	return _collision_light.scale
